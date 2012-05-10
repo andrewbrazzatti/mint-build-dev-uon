@@ -59,6 +59,11 @@
             <artifactId>plugin-transaction-curation-mint</artifactId>
             <version>${mint.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.googlecode.redbox-mint</groupId>
+            <artifactId>sruclient-mint</artifactId>
+            <version>${mint.version}</version>
+        </dependency>
         <!-- Mint Curation Plugin -->
         <dependency>
             <groupId>com.googlecode.redbox-mint</groupId>
