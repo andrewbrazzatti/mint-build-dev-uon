@@ -1,5 +1,5 @@
 {
-    "version": "1.0.5.3",
+    "version": "1.1.0.1",
     "redbox.version.string": "${redbox.version}",
     "redbox.identity": {
         "institution": "University of Newcastle",
@@ -110,11 +110,12 @@
         "nlaIntegration": {
             "enabled": true,
             "pidProperty": "nlaPid",
+            "agencyCode": "TO-DO",
+            "agencyName": "The University of Newcastle, Australia",
             "includeTest": {
                 "repository.name": "People"
             }
         }
-
     },
     "indexer": {
         "type": "solr",
@@ -200,10 +201,10 @@
                 },
                 "off": {
                     "label": "Disabled",
-                    "maxElementsInMemory": 1,
+                    "maxElementsInMemory": 10000,
                     "eternal": false,
-                    "timeToIdleSeconds": 0,
-                    "timeToLiveSeconds": 0,
+                    "timeToIdleSeconds": 1,
+                    "timeToLiveSeconds": 1,
                     "overflowToDisk": false,
                     "maxElementsOnDisk": 1,
                     "diskPersistent": false,
@@ -266,6 +267,12 @@
                     "enabledViews": ["published"],
                     "schema": "http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/home/orca/schemata/registryObjects.xsd",
                     "metadataNamespace": "http://ands.org.au/standards/rif-cs/registryObjects"
+                },
+                "eac-cpf": {
+                    "enabledInAllViews": false,
+                    "enabledViews": ["NLA_Harvest", "published"],
+                    "schema": "urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd",
+                    "metadataNamespace": "urn:isbn:1-931666-33-4"
                 }
             }
         }
