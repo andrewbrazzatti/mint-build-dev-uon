@@ -321,7 +321,7 @@
     </repository>
   </repositories>
   <scm>
-    <scmUrl>https://github.com/redbox-mint-contrib/mint-build-dev-uon</scmUrl>
+    <url>https://github.com/redbox-mint-contrib/mint-build-dev-uon</url>
     <developerConnection>scm:git:https://github.com/redbox-mint-contrib/mint-build-dev-uon.git</developerConnection>
   </scm>
 </project>
