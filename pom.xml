@@ -3,17 +3,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.googlecode.redbox-mint</groupId>
   <artifactId>uon-mint-handle</artifactId>
-  <version>1.5.2-SNAPSHOT</version>
+  <version>1.6-RC01-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Newcastle - Mint - Handle</name>
   <parent>
     <groupId>com.googlecode.redbox-mint</groupId>
     <artifactId>mint</artifactId>
-    <version>1.5.2.2</version>
+    <version>1.6-RC01</version>
   </parent>
   <properties>
     <!-- Used in build -->
-    <mint.version>1.5.2.2</mint.version>
+    <mint.version>1.6-RC01</mint.version>
     <!-- Runtime values, will replace placeholders
              in config and control scripts -->
     <server.port>9001</server.port>

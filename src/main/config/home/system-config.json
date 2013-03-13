@@ -294,5 +294,9 @@
             "failOnMissing": false
         },
         "migrationScript": ""
-    }
+    },
+    "api": {
+    		"published-records-by-type": { "className": "com.googlecode.fascinator.portal.api.impl.PublishedRecordsByTypeAPICallHandlerImpl"}
+    	}
+    
 }
